@@ -33,4 +33,5 @@ class Dense(Layer):
         self.output = np.dot(input, self.weights) + self.biases #calculate the output of the current layer using the formula Y = XW + B
 
     def backward(self, output_error, learning_rate): #will be used later
+        pass
 
